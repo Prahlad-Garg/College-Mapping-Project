@@ -25,7 +25,7 @@ an interactive map, and an AI-powered chatbot assistant.
 
 ### Installation
 \`\`\`bash
-git clone https://github.com/yourusername/college-mapping-website.git
+git clone https://github.com/Prahlad-Garg/College-Mapping-Project.git
 cd college-mapping-website
 npm install
 \`\`\`
