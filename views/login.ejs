@@ -1,0 +1,46 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="/styles/user_account.css">
+
+<div class="star-page">
+  <h1 class="star-title">Log In</h1>
+
+  <div class="glass-card">
+
+    <% if (error && error.length > 0) { %>
+      <p style="color:#ff4d4d; font-size:0.85rem; margin-bottom:12px; text-align:center;">
+        ⚠️ <%= error %>
+      </p>
+    <% } %>
+
+    <form action="/login" method="POST">
+
+      <label class="glass-label">Email</label>
+      <input type="email" class="glass-input" name="username" placeholder="you@example.com">
+
+      <label class="glass-label">Password</label>
+      <input type="password" class="glass-input" name="password" placeholder="••••••••">
+
+      <button type="submit" class="glass-btn">Log In</button>
+
+    </form>
+  </div>
+</div>
+
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign In with Google
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="/js/user_account.js"></script>
+
+<%- include('partials/footer') %>

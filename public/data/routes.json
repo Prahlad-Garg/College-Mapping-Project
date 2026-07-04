@@ -1,0 +1,27 @@
+{
+  "ground": {
+    "dr jaimala gambhir":  ["p1","p2","p3","p4","p5","p6","p7","p9"],
+    "stairs":              ["p1","p2","p3","p4","p5","p6","p11"],
+    "dr sandeep kaur":     ["p1","p2","p3","p4","p5","p6","p10"],
+    "dr balwinder singh":  ["p1","p2","p3","p4","p5","p6","p7","p8"],
+    "under construction":  ["p1","p2","p12","p13"]
+  },
+  "floor1": {
+    "dr rupali syal":   ["q1","q2","q12"],
+    "dr trilok chand":  ["q1","q2","q3","q11"],
+    "dr alka jindal":   ["q1","q2","q3","q10"],
+    "store keeper cse": ["q1","q2","q4","q13"],
+    "cl13":             ["q1","q2","q4","q5","q6","q14"],
+    "cse office":       ["q1","q2","q4","q5","q6","q7","q15"],
+    "cl14":             ["q1","q2","q4","q5","q6","q7","q8","q16"],
+    "l19":              ["q1","q2","q4","q5","q6","q7","q8","q9","q17"]
+  },
+  "floor2": {
+    "amar singh":        ["r1","r2","r4","r5","r6","r13"],
+    "seminar hall":      ["r1","r2","r4","r5","r6","r7","r8","r15"],
+    "computational lab": ["r1","r2","r4","r5","r6","r7","r14"],
+    "prabhjeet":         ["r1","r2","r4","r12"],
+    "rakesh kumar":      ["r1","r2","r3","r9"],
+    "rakesh kumar prof": ["r1","r2","r11"]
+  }
+}

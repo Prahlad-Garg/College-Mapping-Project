@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+
+<video autoplay muted loop playsinline class="bg-video">
+    <source src="/videos/bg.mp4" type="video/mp4">
+</video>
+
+<link rel="stylesheet" href="/styles/chat.css">
+<div class="chat-container">
+    <div class="header">🤖 AI Assistant</div>
+
+    <div class="chat-box" id="chat"></div>
+
+    <div class="input-area">
+        <input type="text" id="message" placeholder="Ask anything..." />
+        <button onclick="sendMessage()">➤</button>
+    </div>
+</div>
+
+<script src="/js/script.js"></script>

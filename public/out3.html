@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outdoor Navigation</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css"/>
+    <link rel="stylesheet" href="/styles/map.css"/>
+</head>
+<body>
+
+    <div class="search-container">
+        <input id="searchBox" placeholder="Search location..." 
+               autocomplete="off" autocorrect="off" 
+               autocapitalize="off" spellcheck="false">
+        <div id="dropdown" class="dropdown"></div>
+    </div>
+
+    <div id="map"></div>
+    <button id="enterBtn" style="display:none;">Enter Building</button>
+
+    <!-- Libraries first -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+    <!-- Your code last (after libraries) -->
+    <script src="/js/out3.js"></script>
+
+</body>
+</html>

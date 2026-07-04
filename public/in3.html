@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indoor Building View</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="/styles/map.css"/>
+</head>
+<body>
+
+    <div class="header"><a href="/" style="color: white; text-decoration: none;">Building Layout</a></div>
+
+    <div class="map-wrapper">
+        <div id="map"></div>
+    </div>
+
+    <div class="panel">Indoor Map</div>
+
+    <div class="floor-buttons">
+        <button onclick="prevFloor()">⬇ Ground</button>
+        <button onclick="nextFloor()">⬆ First</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/js/in3.js"></script>
+
+</body>
+</html>

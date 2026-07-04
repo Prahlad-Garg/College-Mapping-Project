@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="/styles/user_account.css">
+
+<div class="star-page">
+  <h1 class="star-title">Create Account</h1>
+
+  <div class="glass-card">
+    <form action="/register" method="POST">
+
+      <label class="glass-label">Email</label>
+      <input type="email" class="glass-input" name="username" placeholder="you@example.com">
+
+      <label class="glass-label">Password</label>
+      <input type="password" class="glass-input" name="password" placeholder="••••••••">
+
+      <button type="submit" class="glass-btn">Register</button>
+
+    </form>
+
+    <div class="glass-footer">
+      Already have an account? <a href="/login">Login</a>
+    </div>
+  </div>
+</div>
+
+<script src="/js/user_account.js"></script>
+
+<%- include('partials/footer') %>

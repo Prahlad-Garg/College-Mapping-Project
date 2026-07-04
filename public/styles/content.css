@@ -1,0 +1,198 @@
+/* Reset basic layout */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page layout */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & Footer stay fixed size */
+header,
+footer {
+  flex: 0 0 auto;
+}
+
+/* MAIN (this is where centering happens) */
+main {
+  flex: 1 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 5vmin;
+}
+
+/* Remove default link style */
+.home-link {
+  text-decoration: none;
+}
+
+/* Main heading */
+.home-title {
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+/* Hover effect */
+.home-title:hover {
+  transform: scale(1.15);
+  background: linear-gradient(90deg, #ff00cc, #3333ff, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+
+/* Paragraph styling */
+p {
+  color: grey;
+  max-width: 800px;
+}
+
+/* Profile image */
+.profile {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Form styling */
+form {
+  margin-top: 50px;
+}
+
+/* Input fields */
+.feedback-input {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #3586ff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #3586ff;
+}
+
+/* Textarea */
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+/* Submit button */
+[type="submit"] {
+  width: 100%;
+  background: #3586ff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding: 10px 0;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: #2a6edb;
+}
+
+/* Background video */
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+/* ── Navbar dropdown fixes ── */
+
+/* Fix dropdown clipping */
+#navbarSupportedContent {
+  overflow: visible !important;
+}
+
+/* Hide hori-selector white blob that covers brand */
+.hori-selector {
+  display: none !important;
+}
+
+/* Fix brand/logo being covered */
+.navbar-brand {
+  position: relative;
+  z-index: 10;
+}
+
+/* Remove weird arrow symbol on Account toggle */
+#navbarSupportedContent .dropdown-toggle::after {
+  display: none !important;
+}
+
+/* Remove arrow icons on dropdown items (from layout.css) */
+#navbarSupportedContent .dropdown-menu a::after {
+  display: none !important;
+}
+
+/* Dropdown position and size — match nav item */
+#navbarSupportedContent .dropdown-menu {
+  position: absolute !important;
+  z-index: 9999;
+  top: 100%;
+  margin-top: 0;
+  padding: 0 !important;
+  border: none;
+  border-radius: 4px !important;
+  min-width: 0 !important;
+  width: auto !important;
+  background-color: #3586ff !important;
+}
+
+/* Dropdown items — same size and font as nav links */
+#navbarSupportedContent .dropdown-item {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 15px !important;
+  padding: 10px 20px !important;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+#navbarSupportedContent .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}

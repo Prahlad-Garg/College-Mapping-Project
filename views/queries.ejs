@@ -1,0 +1,35 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/queries.css">
+
+<h1>User Queries</h1>
+
+<div class="queries-container">
+  <% if (queries.length === 0) { %>
+    <p>No queries yet.</p>
+  <% } %>
+
+  <% queries.forEach(query => { %>
+    <div class="query-card">
+  
+    <a href="/query/<%= query.id %>" class="query-link">
+      <h3><%= query.name %></h3>
+    </a>
+
+    <p class="email"><%= query.email %></p>
+
+    <p class="preview">
+      <%= query.message.substring(0, 100) %>...
+    </p>
+
+    <!-- DELETE FORM -->
+    <form action="/delete/<%= query.id %>" method="POST" 
+      onsubmit="return confirm('Are you sure you want to delete this query?');">
+      <button type="submit">Delete</button>
+    </form>
+
+    </div>
+
+  <% }) %>
+</div>
+
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,144 @@
+{
+  "alka": {
+    "indoorName": "dr alka jindal",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "l19": {
+    "indoorName": "l19",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "sandeep": {
+    "indoorName": "dr sandeep kaur",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "cl13": {
+    "indoorName": "cl13",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "cl14": {
+    "indoorName": "cl14",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "cse office": {
+    "indoorName": "cse office",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "store keeper": {
+    "indoorName": "store keeper cse",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "rupali": {
+    "indoorName": "dr rupali syal",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "balwinder": {
+    "indoorName": "dr balwinder singh",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "jaimala": {
+    "indoorName": "dr jaimala gambhir",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "under construction": {
+    "indoorName": "under construction",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "trilok": {
+    "indoorName": "dr trilok chand",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "amar": {
+    "indoorName": "amar singh",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "seminar": {
+    "indoorName": "seminar hall",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "computational": {
+    "indoorName": "computational lab",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "prabhjeet": {
+    "indoorName": "prabhjeet",
+    "entrance": [30.76738, 76.78584],
+    "building": "in3.html"
+  },
+  "rakesh kumar": {
+    "indoorName": "Rakesh Kumar",
+    "entrance": [30.76738, 76.78584],
+    "aliases": ["rakesh", "rakesh kumar"],
+    "building": "in3.html"
+  },
+
+  "rakesh kumar prof": {
+    "indoorName": "Rakesh Kumar Prof",
+    "entrance": [30.76738, 76.78584],
+    "aliases": ["rakesh prof", "rakesh kumar prof", "prof rakesh"],
+    "building": "in3.html"
+  },
+
+
+  "lift": {
+    "indoorName": "lift",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+  
+  "l20": {
+    "indoorName": "l20",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+  
+  "l21": {
+    "indoorName": "l21",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+  
+  "washroom": {
+    "indoorName": "washroom",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+  
+  "cyber security": {
+    "indoorName": "cyber security",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+  
+  "dr shailender singh": {
+    "indoorName": "dr shailender singh",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+  
+  "dr bipan and kaushal": {
+    "indoorName": "dr bipan and kaushal",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  },
+
+  "cl5": {
+    "indoorName": "cl5",
+    "entrance": [30.76770195254322, 76.78510679595087],
+    "building": "indoor2.html"
+  }
+}

@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+<video autoplay muted loop playsinline class="bg-video">
+    <source src="/videos/bg.mp4" type="video/mp4">
+</video>
+
+<style>
+p {
+  position: relative;
+  z-index: 9999;
+}
+</style>
+
+<h1>About Us</h1>
+<!--<img class="profile" src="images/cat.jpeg" alt="cat profile">-->
+<p style="color:black;">
+We are a team of students passionate about solving real-world problems using technology. 
+This project, an Indoor + Outdoor Campus Navigation System, was built to simplify how people navigate large and complex campus environments.
+Our system combines outdoor GPS-based navigation with detailed indoor mapping to provide a seamless experience. 
+Users can search for a classroom or location, get routed to the correct building using real-time location, and then continue navigation inside the building to reach the exact room.
+We integrated intelligent search using custom matching algorithms, along with map-based visualization powered by modern web technologies. 
+The goal was to make navigation faster, smarter, and more accessible for students, visitors, and faculty.
+This project reflects our interest in areas like Artificial Intelligence, mapping systems, and user-centric design. 
+Moving forward, we aim to enhance it with features like voice search, real-time updates, and mobile app integration.
+</p>
+<%- include("partials/footer.ejs") %>

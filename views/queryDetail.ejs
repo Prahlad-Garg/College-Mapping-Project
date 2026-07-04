@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs") %>
+
+
+
+
+<div class="query-detail">
+  <h2><%= query.name %></h2>
+  <p><strong>Email:</strong> <%= query.email %></p>
+
+  <hr>
+
+  <p><%= query.message %></p>
+</div>
+
+<style>
+  .query-detail {
+    max-width: 700px;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  body {
+    background-color: #000;
+  }
+</style>
+
+<%- include("partials/footer.ejs") %>

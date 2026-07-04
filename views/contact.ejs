@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+<h1>Contact Me</h1>
+<video autoplay muted loop playsinline class="bg-video">
+    <source src="/videos/bg.mp4" type="video/mp4">
+</video>
+
+<style>
+form {
+  position: relative;
+  z-index: 9999;
+}
+</style>
+
+<form method="POST" action="/contact">
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT" />
+</form>
+<%- include("partials/footer.ejs") %>
